@@ -1,11 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body {
-    background-color: beige
+  background-image: url("https://i.pinimg.com/736x/de/51/56/de5156ba2bcffc180e5a0b3b3703ce60.jpg");
 }
-h1 {
-    color: saddlebrown;
-    text-align: center;
+p.ex4 {outline: thick ridge pink;}
+
+a:link, a:visited {
+  background-color: #ffcad4;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
-p {
-    font-family: verdana;
-    font-size: 20px;
+
+a:hover, a:active {
+  background-color: pink;
 }
+
+a:link, a:visited {
+  background-color: #ffcad4;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: pink;
+}
+
+a:link, a:visited {
+  background-color: #ffcad4;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: pink;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1
+<p class="ex4">Personal Profile Web page</p>
+</h1>  
+<a href="https://www.facebook.com/frances.lepsot" target="_blank">Facebook</a>
+<a href="https://www.instagram.com/_ceslepsot/" target="_blank">Instagram</a>
+<a href="https://www.linkedin.com/in/frances-sophia-lepsot-121704287/" target="_blank">LinkedIn</a>
+
+<h3>
+<p class="ex4">About Me</p>
+</h3>
+<p>Frances Sophia T. Lepsot is my name, and I am a second-year student at Asia Pacific College. Although I was born in Quezon City,
+    I spent my childhood in Pampanga before deciding to attend college in Manila. I make an effort to balance going out, having fun, and enjoying life while studying for my degree.</p>
+
+<h3>
+  <p class="ex4">Education / Achievements</p>
+</h3>
+
+<ul>
+    <li>Graduated Elementary at St. Augustine Academy of Pampanga.</li>
+    <li>Graduated Junior High School with Honors from St. Augustine Academy of Pampanga, Class of 2021.</li>
+    <li>Graduated Senior High School with Honors from University of the Assumption, Class of 2023.
+  </li>
+  </ul>  
+  
+<h3>
+  <p class="ex4">Course</p>
+</h3>
+<p>Bachelor of Science in Computer Science with specialization in Cyber Security and Forensics</p> 
+
+<h3>
+  <p class="ex4">IT Experience</p>
+</h3>
+
+<ul>
+    <li>Programming</li>
+    <li>Gaming</li>
+  </ul>  
+
+<h3>
+  <p class="ex4">Hobbies & Interests</p>
+</h3>
+
+<ul>
+    <li>Travelling</li>
+    <li>Watching movies</li>
+    <li>Listening to music</li>
+    <li>Crocheting</li>
+  </ul>
+
+<h3>
+  <p class="ex4">Goals In Life / Dream</p>
+</h3>
+
+<p>To make the most of each day, travel the world, and be able to provide financially for myself and my family.</p>
+
+<h3>
+  <p class="ex4">Picture Gallery</p>
+</h3>
+<p>I also love to watch K-pop concerts so here are some images of the concerts I have attended:</p>
+
+<div class="gallery">
+  <a target="_blank" href="https://pop.inquirer.net/files/2023/04/2-1-1024x559.jpg">
+    <img src="https://pop.inquirer.net/files/2023/04/2-1-1024x559.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Hello Tour in Manila</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://th.bing.com/th/id/OIP.OwRuVhitiaYr5bolbgF9xwHaE8?rs=1&pid=ImgDetMain">
+    <img src="https://th.bing.com/th/id/OIP.OwRuVhitiaYr5bolbgF9xwHaE8?rs=1&pid=ImgDetMain" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">The Dream Show 2 in Manila</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://pbs.twimg.com/media/FtFUFswaQAAO3nI.jpg">
+    <img src="https://pbs.twimg.com/media/FtFUFswaQAAO3nI.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">The Dream Show 3 in Manila</div>
+</div>
+
+</body>
+</html>
