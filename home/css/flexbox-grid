@@ -1,29 +1,28 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .grid-item {
-    background-color: pink;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-  }
-  
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  .flex-item {
-    background-color: #FFD3DA;
-    color: black;
-    padding: 10px;
-    margin: 5px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: pink;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-item {
+  background-color: #FFD3DA;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+}
