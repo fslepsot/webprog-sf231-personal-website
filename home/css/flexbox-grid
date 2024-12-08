@@ -20,7 +20,7 @@ h1 {
 
 h3 {
   margin-top: 30px;
-  color: pink;
+  color: #b3446c;
   font-size: 1.5rem;
 }
 
@@ -31,7 +31,7 @@ h3 {
 }
 
 .section {
-  flex: 1 1 calc(50% - 20px);
+  flex: 1 1 48%;
   padding: 15px;
   background-color: #fff;
 }
@@ -42,4 +42,10 @@ h3 {
 
 .section ul li {
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex: 1 1 100%;
+  }
 }
