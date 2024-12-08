@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f3abb6;
+  background-color: #fbeee6;
   color: #333;
   line-height: 1.6;
   padding: 20px;
@@ -14,13 +14,13 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #f3abb6;
   font-size: 2rem;
 }
 
 h3 {
   margin-top: 30px;
-  color: #444;
+  color: pink;
   font-size: 1.5rem;
 }
 
@@ -31,7 +31,7 @@ h3 {
 }
 
 .section {
-  flex: 1 1 48%;
+  flex: 1 1 calc(50% - 20px);
   padding: 15px;
   background-color: #fff;
 }
@@ -42,10 +42,4 @@ h3 {
 
 .section ul li {
   margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-  .section {
-    flex: 1 1 100%;
-  }
 }
