@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Profile Web Page</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
@@ -16,49 +19,64 @@
 <a href="https://www.instagram.com/_ceslepsot/" target="_blank">Instagram</a>
 <a href="https://www.linkedin.com/in/frances-sophia-lepsot-121704287/" target="_blank">LinkedIn</a>
 
-<h3>
-  <p class="ex4">About Me</p>
-</h3>
-<p>Frances Sophia T. Lepsot is my name, and I am a second-year student at Asia Pacific College. Although I was born in Quezon City,
-    I spent my childhood in Pampanga before deciding to attend college in Manila. I make an effort to balance going out, having fun, and enjoying life while studying for my degree.</p>
+<div class="container-fluid mt-3">
+  <h1>Responsive Auto Layout Columns</h1>
+  <p>In Bootstrap 5, there is an easy way to create equal width columns: just use the <code>.col-md</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+  <p>If the screen size is <strong>less than 768px</strong>, the columns will stack horizontally.</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md bg-primary text-white"><h3>
+        <p class="ex4">About Me</p>
+      </h3>
+      <p>Frances Sophia T. Lepsot is my name, and I am a second-year student at Asia Pacific College. Although I was born in Quezon City,
+          I spent my childhood in Pampanga before deciding to attend college in Manila. I make an effort to balance going out, having fun, and enjoying life while studying for my degree.</p>
+      </div>
 
-<h3>
-  <p class="ex4">Education / Achievements</p>
-</h3>
+      <div class="col-md bg-dark text-white"><h3>
+        <p class="ex4">Education / Achievements</p>
+      </h3>
+      
+      <ul>
+        <li>Graduated Elementary at St. Augustine Academy of Pampanga.</li>
+        <li>Graduated Junior High School with Honors from St. Augustine Academy of Pampanga, Class of 2021.</li>
+        <li>Graduated Senior High School with Honors from University of the Assumption, Class of 2023.</li>
+      </ul>  </div>
+    </div>  
+  </div>
+  <br>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md bg-primary text-white"><h3>
+        <p class="ex4">Course</p>
+      </h3>
+      <p>Bachelor of Science in Computer Science with specialization in Cyber Security and Forensics</p> </div>
 
-<ul>
-  <li>Graduated Elementary at St. Augustine Academy of Pampanga.</li>
-  <li>Graduated Junior High School with Honors from St. Augustine Academy of Pampanga, Class of 2021.</li>
-  <li>Graduated Senior High School with Honors from University of the Assumption, Class of 2023.</li>
-</ul>  
+      <div class="col-md bg-dark text-white"><h3>
+        <p class="ex4">IT Experience</p>
+      </h3>
+      <ul>
+        <li>Programming</li>
+        <li>Gaming</li>
+      </ul>  </div>
 
-<h3>
-  <p class="ex4">Course</p>
-</h3>
-<p>Bachelor of Science in Computer Science with specialization in Cyber Security and Forensics</p> 
+      <div class="col-md bg-primary text-white"><h3>
+        <p class="ex4">Hobbies & Interests</p>
+      </h3>
+      <ul>
+        <li>Travelling</li>
+        <li>Watching movies</li>
+        <li>Listening to music</li>
+        <li>Crocheting</li>
+      </ul></div>
 
-<h3>
-  <p class="ex4">IT Experience</p>
-</h3>
-<ul>
-  <li>Programming</li>
-  <li>Gaming</li>
-</ul>  
-
-<h3>
-  <p class="ex4">Hobbies & Interests</p>
-</h3>
-<ul>
-  <li>Travelling</li>
-  <li>Watching movies</li>
-  <li>Listening to music</li>
-  <li>Crocheting</li>
-</ul>
-
-<h3>
-  <p class="ex4">Goals In Life / Dream</p>
-</h3>
-<p>To make the most of each day, travel the world, and be able to provide financially for myself and my family.</p>
+      <div class="col-md bg-dark text-white"><h3>
+        <p class="ex4">Goals In Life / Dream</p>
+      </h3>
+      <p>To make the most of each day, travel the world, and be able to provide financially for myself and my family.</p></div>
+    </div>  
+  </div>
+</div>
 
 <h3>
   <p class="ex4">Picture Gallery</p>
