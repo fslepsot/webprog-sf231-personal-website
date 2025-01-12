@@ -1,91 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Profile Web Page</title>
-  <link rel="stylesheet" href="styles.css">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body class="w3-light-grey">
 
-<h1>
-  <p class="ex4">Personal Profile Web page</p>
-</h1>  
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com/frances.lepsot/" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/_ceslepsot/" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/frances-sophia-lepsot-121704287/" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
 
-<a href="https://www.facebook.com/frances.lepsot" target="_blank">Facebook</a>
-<a href="https://www.instagram.com/_ceslepsot/" target="_blank">Instagram</a>
-<a href="https://www.linkedin.com/in/frances-sophia-lepsot-121704287/" target="_blank">LinkedIn</a>
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Hey, I'm Frances!</b></h1>
+    <h6>Welcome to my website :) </h6>
+  </header>
 
-<h3>
-  <p class="ex4">About Me</p>
-</h3>
-<p>Frances Sophia T. Lepsot is my name, and I am a second-year student at Asia Pacific College. Although I was born in Quezon City,
-    I spent my childhood in Pampanga before deciding to attend college in Manila. I make an effort to balance going out, having fun, and enjoying life while studying for my degree.</p>
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+    
+      <!-- About Me -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>About Me</h3>
+        </div>
 
-<h3>
-  <p class="ex4">Education / Achievements</p>
-</h3>
+        <div class="w3-justify">
+          <p><strong>I am a 2nd-year college student currently pursuing my education at Asia Pacific College. I grew up in the vibrant province of Pampanga, but I moved to Manila to chase pursue my academic dreams and expand my horizons in the bustling city. I am passionate about learning and exploring new opportunities, I’m excited about the journey ahead as I build my skills and experiences for the future.</p>
+              </div>
+      <hr>
 
-<ul>
-  <li>Graduated Elementary at St. Augustine Academy of Pampanga.</li>
-  <li>Graduated Junior High School with Honors from St. Augustine Academy of Pampanga, Class of 2021.</li>
-  <li>Graduated Senior High School with Honors from University of the Assumption, Class of 2023.</li>
-</ul>  
+      <!-- Education Details -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Education / Achievements</h3>
+        </div>
 
-<h3>
-  <p class="ex4">Course</p>
-</h3>
-<p>Bachelor of Science in Computer Science with specialization in Cyber Security and Forensics</p> 
+        <div class="w3-justify">
+              <ul>
+        <li>Elementary Education: Graduated from St. Augustine Academy of Pampanga, Class of 2017.</li>
+        <li>Junior High School: Completed Junior High School with Honors at St. Augustine Academy of Pampanga, Class of 2021.</li>
+        <li>Senior High School: Graduated with Honors from University of the Assumption, Class of 2023.</li>
+        <li>College: Currently enrolled at Asia Pacific College pursuing higher education and successfully completed 1st year as part of the Honor's List.</li>
+    </ul> 
+          <hr>
+          
+      <!-- Course Details -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Course</h3>
+          <p><strong>Bachelor of Science in Computer Science with specialization in Cyber Security and Forensics</p>       
+          <hr>
+          
+          
+      <!-- IT Experience -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>IT Experience</h3>
+        </div>
 
-<h3>
-  <p class="ex4">IT Experience</p>
-</h3>
-<ul>
-  <li>Programming</li>
-  <li>Gaming</li>
-</ul>  
+        <div class="w3-justify">
+           <ul>
+        <li>Programming Languages: Python, Java, JavaScript</li>
+        <li>Web Development Tools: HTML, CSS, Vue.js</li>
+        <li>Databases: SQL</li>
+        <li>Networking: Basic understanding of LAN/WLAN, troubleshooting</li>
+        <li>Operating Systems: Windows, Linux</li>
+        <li>Other Tools: Git, VS Code</li>
+    </ul>
+          <hr>
+          
+         <!-- Hobbies & Interests -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Hobbies & Interests</h3>
+        </div>
 
-<h3>
-  <p class="ex4">Hobbies & Interests</p>
-</h3>
-<ul>
-  <li>Travelling</li>
-  <li>Watching movies</li>
-  <li>Listening to music</li>
-  <li>Crocheting</li>
-</ul>
+        <div class="w3-justify">
+      <ul>
+        <li>Traveling: I love exploring new places and cultures to gain a broader perspective and inspiration.</li>
+        <li>Watching Movies: I enjoy analyzing films for storytelling, cinematography, and creative expression.</li>
+        <li>Listening to Music: A passion for discovering diverse genres to relax and spark creativity.</li>
+        <li>Crocheting: A creative outlet for designing and crafting unique handmade items, fostering patience and attention to detail.</li>
+    </ul>
+          <hr>
+          
+          <!-- Goals In Life -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Hobbies & Interests</h3>
+        </div>
 
-<h3>
-  <p class="ex4">Goals In Life / Dream</p>
-</h3>
-<p>To make the most of each day, travel the world, and be able to provide financially for myself and my family.</p>
+        <div class="w3-justify">
+      <ul>
+        <li>Pursue a Career in Cybersecurity: Aim to excel in the field by safeguarding digital environments and contributing to secure technological advancements.</li>
+        <li>Achieve Financial Independence: Work towards building a stable and self-sustaining future.</li>
+        <li>Travel the World: Explore diverse cultures and broaden horizons through enriching travel experiences.</li>
+        <li>Make the Most of Every Day: Embrace personal growth, learning, and meaningful experiences in daily life.</li>
+    </ul>
+          <hr>
+          
+    <!-- END BLOG ENTRIES -->
+    </div>
 
-<h3>
-  <p class="ex4">Picture Gallery</p>
-</h3>
-<p>I also love to watch K-pop concerts so here are some images of the concerts I have attended:</p>
+<!-- Picture Gallery -->
+<h3>Picture Gallery</h3>
+<div class="w3-row">
+  <!-- Picture Gallery Card 1 -->
+  <div class="w3-col l4">
+    <div class="w3-white w3-margin">
+      <img src="C:\Users\Frances\Downloads\IMG20230415204412 (1).jpg" alt="Treasure Concert" style="width:100%" class="w3-grayscale">
+      <div class="w3-container w3-black">
+        <h4>Hello Tour in Manila</h4>
+      </div>
+    </div>
+  </div>
 
-<div class="gallery">
-  <a target="_blank" href="https://pop.inquirer.net/files/2023/04/2-1-1024x559.jpg">
-    <img src="https://pop.inquirer.net/files/2023/04/2-1-1024x559.jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Hello Tour in Manila</div>
+  <!-- Picture Gallery Card 2 -->
+  <div class="w3-col l4">
+    <div class="w3-white w3-margin">
+      <img src=""C:\Users\Frances\Downloads\IMG_20231013_220242_264.jpg"" alt="Girlies" style="width:100%" class="w3-grayscale">
+      <div class="w3-container w3-black">
+        <h4>Freshman Year</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Picture Gallery Card 3 -->
+  <div class="w3-col l4">
+    <div class="w3-white w3-margin">
+      <img src=""C:\Users\Frances\Downloads\448962697_3906634649565554_358387288689512730_n.jpg"" alt="Family" style="width:100%" class="w3-grayscale">
+      <div class="w3-container w3-black">
+        <h4>Family</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Picture Gallery Card 4 -->
+  <div class="w3-col l4">
+    <div class="w3-white w3-margin">
+      <img src="IMG_20240521_143325_209.jpg" alt="Friends" style="width:100%" class="w3-grayscale">
+      <div class="w3-container w3-black">
+        <h4>JHS Friends</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Picture Gallery Card 5 -->
+  <div class="w3-col l4">
+    <div class="w3-white w3-margin">
+      <img src="https://drive.google.com/file/d/1EaEsujtWDfUDtHNZvUswu7z-K059dpO1/view?usp=sharing" alt="Family" style="width:100%" class="w3-grayscale">
+      <div class="w3-container w3-black">
+        <h4>Boracay Trip</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Picture Gallery Card 6 -->
+  <div class="w3-col l4">
+    <div class="w3-white w3-margin">
+      <img src=""C:\Users\Frances\Downloads\20190420100047_IMG_9107 (1).jpg"" alt="Ilocos" style="width:100%" class="w3-grayscale">
+      <div class="w3-container w3-black">
+        <h4>Bangui, Ilocos Norte</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!--follow me-->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+  		<a href="https://www.facebook.com/frances.lepsot/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+		<a href="https://www.instagram.com/_ceslepsot/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+		<a href="https://ph.pinterest.com/franceslepsot/" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+		<a href="https://www.linkedin.com/in/frances-sophia-lepsot-121704287/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+
+        </div>
+      </div>
+      <hr>
+      
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="https://th.bing.com/th/id/OIP.OwRuVhitiaYr5bolbgF9xwHaE8?rs=1&pid=ImgDetMain">
-    <img src="https://th.bing.com/th/id/OIP.OwRuVhitiaYr5bolbgF9xwHaE8?rs=1&pid=ImgDetMain" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">The Dream Show 2 in Manila</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://pbs.twimg.com/media/FtFUFswaQAAO3nI.jpg">
-    <img src="https://pbs.twimg.com/media/FtFUFswaQAAO3nI.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">The Dream Show 3 in Manila</div>
-</div>
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>LEPSOT WEBPROG SF231</a></p>
+</footer>
 
 </body>
 </html>
-
