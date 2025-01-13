@@ -166,10 +166,34 @@
   </div>
 </div>
 
-<!-- Footer -->
+  <div class="w3-white w3-margin">
+    <div class="w3-container w3-padding w3-black">
+      <h4>Feedback Form</h4>
+    </div>
+    <div class="w3-container w3-white">
+      <p>We would love to hear your thoughts!</p>
+      <p><input class="w3-input w3-border" type="text" v-model="feedback.name" placeholder="Your Name"></p>
+      <p><input class="w3-input w3-border" type="email" v-model="feedback.email" placeholder="Your Email"></p>
+      <p><textarea class="w3-input w3-border" v-model="feedback.message" placeholder="Your Feedback" rows="4"></textarea></p>
+      <p><button type="button" @click="submitFeedback" class="w3-button w3-block w3-brown">Submit Feedback</button></p>
+    </div>
+  </div>
+
+  <div v-if="showFeedbackModal" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content" style="padding:32px">
+      <div class="w3-container w3-white">
+        <i @click="showFeedbackModal = false" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+        <h2 class="w3-wide">Thank You!</h2>
+        <p>Thank you, {{ feedback.name }}. We appreciate your feedback!</p>
+        <button type="button" @click="showFeedbackModal = false" class="w3-button w3-block w3-padding-large w3-brown w3-margin-bottom">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <footer class="w3-container w3-dark-grey" style="padding:32px">
   <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>LEPSOT WEBPROG SF231</a></p>
+  <p>LEPSOT WEBPROG SF231</p>
 </footer>
 
 </body>
