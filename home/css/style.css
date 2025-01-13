@@ -22,7 +22,7 @@ p {
 }
 
 /* Background Images */
-.bgimg, .bgimg2 {
+.bgimg {
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -34,7 +34,7 @@ p {
 
 /* Custom Colors */
 .w3-black {
-  background-color: #6C5638 !important;
+  background-color: #74574a !important;
 }
 
 .w3-white {
@@ -46,7 +46,7 @@ p {
 }
 
 .w3-container h4, .w3-container h3 {
-  color: #ffffff;
+  color: w3-black;
 }
 
 .w3-container p, ul li {
