@@ -1,12 +1,38 @@
+<style>
+/* Fonts and Global Styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald";
+  font-family: "Times New Roman";
 }
 
 body {
-  font-family: "Open Sans";
-  background-color: w3-black;
+  font-family: "Times New Roman";
+  background-color: #000000;
 }
 
+body, h1, h2 {
+  font-family: "Times New Roman", sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+p {
+  line-height: 2;
+}
+
+/* Background Images */
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg {
+  background-image: url("https://i.pinimg.com/736x/4c/6a/97/4c6a979bddc2f5c4a3dcd7deac00dbf1.jpg");
+}
+
+/* Custom Colors */
 .w3-black {
   background-color: #6C5638 !important;
 }
@@ -19,8 +45,8 @@ body {
   background-color: #987554 !important;
 }
 
-.w3-container h4, h3 {
-  color: w3-white;
+.w3-container h4, .w3-container h3 {
+  color: #ffffff;
 }
 
 .w3-container p, ul li {
@@ -30,3 +56,4 @@ body {
 .w3-hover-opacity:hover {
   color: #d7b17e !important;
 }
+</style>
